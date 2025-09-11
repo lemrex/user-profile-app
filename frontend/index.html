@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .container {
+      margin-top: 40px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button.add {
+      background: #4CAF50;
+      color: white;
+    }
+    button.add:hover {
+      background: #45a049;
+    }
+
+    button.get {
+      background: #2196F3;
+      color: white;
+    }
+    button.get:hover {
+      background: #1976D2;
+    }
+
+    pre {
+      background: #f0f0f0;
+      padding: 15px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>User Profile App</h1>
+
+    <input type="text" id="name" placeholder="Enter name" />
+    <input type="email" id="email" placeholder="Enter email" />
+
+    <button class="add" onclick="addUser()">➕ Add User</button>
+    <button class="get" onclick="getUsers()">📋 Get Users</button>
+
+    <h3>Users List:</h3>
+    <pre id="users">Click "Get Users" to load data...</pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
