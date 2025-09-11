@@ -58,30 +58,28 @@ All images are available on **Docker Hub** under my namespace:
 2. **Start Services with Docker Compose**
 
 ```bash
-docker-compose up -d
+   docker-compose up -d
 ```
-This will spin up:
-
-   frontend (Nginx server) on port 8080
-   backend (Node.js API) on port 5000
-   mongo database on port 27017
+   This will spin up:
+   -frontend (Nginx server) on port 8080
+   -backend (Node.js API) on port 5000
+   -mongo database on port 27017
 
 3.**Access Application**
-
-  Frontend → http://localhost:8080
-  Backend API → http://localhost:5000
+  -Frontend → http://localhost:8080
+  -Backend API → http://localhost:5000
 
 4.**Stop Containers**
 ```bash
-docker-compose down
+   docker-compose down
 ```
 ## 🛡️ Why this project?
 This project is not just a web app — it’s built to demonstrate DevOps expertise:
 
--Containerization of frontend, backend, and database.
--Image publishing to Docker Hub.
--Multi-container orchestration using docker-compose.
--A reproducible workflow for deploying apps.
+ -Containerization of frontend, backend, and database.
+ -Image publishing to Docker Hub.
+ -Multi-container orchestration using docker-compose.
+ -A reproducible workflow for deploying apps.
 
 ## 📂 Future Enhancements
 
@@ -90,9 +88,9 @@ This project is not just a web app — it’s built to demonstrate DevOps expert
 -Logging & monitoring with ELK stack.
 
 ## 👨‍💻 Author
-Anand Kumar Sah
-
-- 🌐 [LinkedIn](https://www.linkedin.com/anandkrsah)
+**Anand Kumar Sah**
+- 🌐 [LinkedIn](https://www.linkedin.com/in/anandkrsah)
 - 🐙 [GitHub](https://github.com/anandkumarsah)  
-- 🐳 [Docker Hub](https://hub.docker.com/u/anandkumarsah) 
+- 🐳 [Docker Hub](https://hub.docker.com/u/anandkumarsah)
+  
 ⭐ If you found this project useful, don’t forget to star the repo!
