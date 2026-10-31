@@ -1,4 +1,4 @@
-9# User Profile App (Dockerized Full-Stack Project)
+# User Profile App (Dockerized Full-Stack Project)
 
 This is a **Dockerized full-stack application** that demonstrates how to containerize and orchestrate a simple **frontend, backend, and MongoDB database** using **Docker & Docker Compose**.  
 
