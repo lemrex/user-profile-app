@@ -1,4 +1,4 @@
-# User Profile App (Dockerized Full-Stack Project)
+9# User Profile App (Dockerized Full-Stack Project)
 
 This is a **Dockerized full-stack application** that demonstrates how to containerize and orchestrate a simple **frontend, backend, and MongoDB database** using **Docker & Docker Compose**.  
 
@@ -41,9 +41,7 @@ Make sure you have installed:
 ## 📦 Docker Images
 All images are available on **Docker Hub** under my namespace:
 
-- Backend: [`anandkumarsah/user-profile-backend:1.0`](https://hub.docker.com/r/anandkumarsah/user-profile-backend)  
-- Frontend: [`anandkumarsah/user-profile-frontend:1.0`](https://hub.docker.com/r/anandkumarsah/user-profile-frontend)  
-- Database: `mongo:5` (official MongoDB image)  
+
 
 ---
 
